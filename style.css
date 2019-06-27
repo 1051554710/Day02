@@ -1,0 +1,20 @@
+.left{
+    color: aquamarine;
+    font-size: 46px;
+}
+#t1{
+    border: 1px solid #ccc;
+}
+h1#t2{
+    background-color: aquamarine;
+}
+.header li{
+    color: aqua;
+    font-size: 50px;
+}
+.header>ul::after{
+    content: "啊哈哈哈哈"
+}
+.header>ul>li:hover{
+    background-color: green;
+}
